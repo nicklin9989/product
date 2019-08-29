@@ -4,7 +4,9 @@ while True:
     if name == 'q':
         break
     price = input('請輸入商品價格')
-    p = []
-    products.append([name,price])
+    p = [name,price]
+    products.append(p)
 print(products)
-print(products[0][0])
+
+for p in products:
+    print((p)[0],'的價格',p[1])
