@@ -1,7 +1,7 @@
 import os #operating system 
+
+#讀取檔案
 products = []
-
-
 if os.path.isfile('products.csv'):#檢查檔案在不在
     print('椰！找檔案了!')
 else:
