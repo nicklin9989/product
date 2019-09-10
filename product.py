@@ -41,7 +41,7 @@ def main():
     else:
         print('找不到檔案...')
     
-    products = read_file('products.csv')
+    
     products = user_input(products)
     print_products(products)
     write_file('products.csv',products)
